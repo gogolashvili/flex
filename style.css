@@ -1,2 +1,63 @@
 .container {
+  margin: 0 auto;
+  width: 1440px;
+}
+.section1 {
+  background-image: url("./Rectangle\ 1.png");
+  background-position: center;
+  background-size: cover;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  color: #777777;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  display: inline-block;
+}
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+nav {
+  width: 40%;
+  margin-left: 100px;
+}
+.rectangle1 {
+  width: 514px;
+  height: 855px;
+  left: 874px;
+  top: 251px;
+  background: #ffffff;
+  border-radius: 30px;
+  margin-right: 52px;
+}
+.section2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+.text {
+  display: block;
+}
+.email {
+  display: block;
+}
+.time {
+  display: block;
 }
